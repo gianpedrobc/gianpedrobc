@@ -12,10 +12,10 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 5
-    # PERMISSÕES: Esta seção é crítica para o deploy e a criação da branch 'output'
+    # PERMISSÕES CRÍTICAS: Incluindo 'pages: write'
     permissions:
       contents: write
-      pages: write # Permissão para deploy de páginas (usada para criar a branch 'output')
+      pages: write 
       id-token: write
 
     steps:
@@ -26,7 +26,7 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           output_file_name: pacman-contribution-graph.svg
 
-      # Faz o deploy do SVG gerado para a branch 'output'
+      # Faz o deploy usando o peaceiris (mais robusto)
       - name: Deploy to output branch
         uses: peaceiris/actions-gh-pages@v3
         with:
