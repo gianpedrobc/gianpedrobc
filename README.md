@@ -52,15 +52,11 @@ Aqui estão as principais ferramentas e tecnologias que eu utilizo:
 
 ---
 
-## 🎮 Pac-Man Contribution Graph (Extra)
-
-Se você configurar a **GitHub Action** (mencionado abaixo), seu gráfico de contribuições se transformará em um jogo do Pac-Man!
+## 🎮 Pac-Man Contribution Graph 
 
 <div align="center">
-  <img src="https://pacman-contribution-graph.vercel.app/api?username=[gianpedrobc]&style=flat" alt="Gráfico de Contribuições Pac-Man" />
+  <img src="https://raw.githubusercontent.com/gianpedrobc/gianpedrobc/output/pacman-contribution-graph.svg" alt="Gráfico de Contribuições Pac-Man" />
 </div>
-
-> **Nota:** Para que o gráfico do Pac-Man funcione, você precisa criar um repositório com o nome do seu usuário (`GianPedro/GianPedro`) e configurar um *GitHub Action* que gere a imagem SVG do jogo diariamente.
 
 ---
 
