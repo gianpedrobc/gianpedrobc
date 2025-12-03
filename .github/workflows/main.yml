@@ -12,22 +12,20 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 5
-    # PERMISSÕES CRÍTICAS
     permissions:
       contents: write
       pages: write 
       id-token: write
 
     steps:
-      # Gera o arquivo SVG do Pac-Man (Sintaxe Corrigida!)
+      # 1. PASSO CRÍTICO CORRIGIDO (Gera o SVG)
       - name: generate pacman-contribution-graph.svg
         uses: abozanona/pacman-contribution-graph@main
         with:
-          # A Action gera automaticamente o arquivo 'pacman-contribution-graph.svg'
-          # A única entrada é o nome de usuário:
+          # Removemos o 'output_file_name' que estava causando o erro de Warning
           github_user_name: ${{ github.repository_owner }}
 
-      # Faz o deploy usando o peaceiris para criar e salvar na branch 'output'
+      # 2. PASSO CRÍTICO CORRIGIDO (Salva na branch 'output')
       - name: Deploy to output branch
         uses: peaceiris/actions-gh-pages@v3
         with:
