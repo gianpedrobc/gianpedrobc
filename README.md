@@ -1,13 +1,19 @@
 # Olá, eu sou Gian Pedro 👋
 
-### 💻 Graduando em Licenciatura em Ciência da Computação | Estudioso de DevOps e Cloud
+### 💻 Graduando em Ciência da Computação | DevSecOps pela Compasso UOL | Estudioso de Cloud e DevOps
 
-Sou um profissional em formação, apaixonado por tecnologia e focado em construir soluções robustas e escaláveis. Minha experiência abrange desde o desenvolvimento Back-end com **Python/Django** até a orquestração e deploy em ambientes **Cloud** com foco em **DevOps**.
+Profissional em formação, apaixonado por tecnologia e focado em construir soluções **seguras, robustas e escaláveis**.  
+Atuo do Back-end com **Python/Django**, passando por **CI/CD**, até práticas de **DevSecOps** e deploy em ambientes Cloud.
 
-Busco aplicar o conhecimento adquirido na faculdade em projetos práticos, sempre com o objetivo de otimizar processos e garantir a entrega contínua de software.
+Sempre aplico o conhecimento em **projetos reais**, buscando automação, eficiência e boas práticas.
 
+---
 
-- 🌱 Foco atual: Aprofundar em IaC (Infrastructure as Code) e Kubernetes.
+## 🎓 Formação & Especializações
+
+- 💻 Graduando em Licenciatura em Ciência da Computação  
+- 🔒 DevSecOps pela **Compasso UOL**  
+- 🚀 Focado em IaC, Kubernetes, Segurança e Observabilidade  
 ---
 
 ## 🛠️ Stack de Tecnologias
