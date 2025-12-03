@@ -1,6 +1,6 @@
 # Olá, eu sou Gian Pedro 👋
 
-### 💻 Graduando em Ciência da Computação | DevSecOps pela Compasso UOL | Estudioso de Cloud e DevOps
+### 💻 Graduando em Licenciatura em Ciência da Computação | DevSecOps pela Compasso UOL 
 
 Profissional em formação, apaixonado por tecnologia e focado em construir soluções **seguras, robustas e escaláveis**.  
 Atuo do Back-end com **Python/Django**, passando por **CI/CD**, até práticas de **DevSecOps** e deploy em ambientes Cloud.
