@@ -66,6 +66,5 @@ Se você configurar a **GitHub Action** (mencionado abaixo), seu gráfico de con
 
 ## 🌐 Conecte-se Comigo
 
-| LinkedIn |
-| :---: | :---: |
+
 | [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=for-the-badge)]([www.linkedin.com/in/gianpedrobc]) |
