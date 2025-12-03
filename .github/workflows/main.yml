@@ -12,26 +12,27 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 5
-    # PERMISSÕES CRÍTICAS: Incluindo 'pages: write'
+    # PERMISSÕES CRÍTICAS
     permissions:
       contents: write
       pages: write 
       id-token: write
 
     steps:
-      # Gera o arquivo SVG do Pac-Man
+      # Gera o arquivo SVG do Pac-Man (Sintaxe Corrigida!)
       - name: generate pacman-contribution-graph.svg
         uses: abozanona/pacman-contribution-graph@main
         with:
+          # A Action gera automaticamente o arquivo 'pacman-contribution-graph.svg'
+          # A única entrada é o nome de usuário:
           github_user_name: ${{ github.repository_owner }}
-          output_file_name: pacman-contribution-graph.svg
 
-      # Faz o deploy usando o peaceiris (mais robusto)
+      # Faz o deploy usando o peaceiris para criar e salvar na branch 'output'
       - name: Deploy to output branch
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: .
-          publish_branch: output # Nome da branch de destino
+          publish_branch: output # Branch de destino
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
