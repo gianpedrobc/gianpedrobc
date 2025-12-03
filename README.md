@@ -1,6 +1,6 @@
 # Olá, eu sou Gian Pedro 👋
 
-### 💻 Graduando em Licenciatura em Ciência da Computação | DevSecOps pela Compasso UOL 
+### 💻 Graduando em Licenciatura em Ciência da Computação | DevSecOps
 
 Profissional em formação, apaixonado por tecnologia e focado em construir soluções **seguras, robustas e escaláveis**.  
 Atuo do Back-end com **Python/Django**, passando por **CI/CD**, até práticas de **DevSecOps** e deploy em ambientes Cloud.
@@ -69,4 +69,4 @@ Aqui estão as principais ferramentas e tecnologias que eu utilizo:
 ## 🌐 Conecte-se Comigo
 
 
- [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=for-the-badge)]([www.linkedin.com/in/gianpedrobc]) 
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/gianpedrobc)
