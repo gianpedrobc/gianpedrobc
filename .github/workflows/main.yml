@@ -2,35 +2,31 @@ name: generate pacman game
 
 on:
   schedule:
-    - cron: "0 0 * * *" 
+    - cron: "0 0 * * *"
   workflow_dispatch:
   push:
     branches:
-      - main 
+      - main
 
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
     permissions:
       contents: write
-      pages: write 
-      id-token: write
 
     steps:
-      # 1. PASSO CRÍTICO CORRIGIDO (Gera o SVG)
-      - name: generate pacman-contribution-graph.svg
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Generate Pacman graph
         uses: abozanona/pacman-contribution-graph@main
         with:
-          # Removemos o 'output_file_name' que estava causando o erro de Warning
           github_user_name: ${{ github.repository_owner }}
+          generate_dark_mode: false
 
-      # 2. PASSO CRÍTICO CORRIGIDO (Salva na branch 'output')
       - name: Deploy to output branch
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: .
-          publish_branch: output # Branch de destino
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
+          publish_dir: dist
+          publish_branch: output
