@@ -55,7 +55,7 @@ Aqui estão as principais ferramentas e tecnologias que eu utilizo:
 ## 👾 Gráfico de Contribuição do Pac-Man
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/gianpedrobc/gianpedrobc/output/pacman-contribution-graph.svg" alt="Gráfico de Contribuições Pac-Man" />
+ <img src="https://raw.githubusercontent.com/gianpedrobc/gianpedrobc/output/pacman-contribution-graph.svg" alt="Gráfico de Contribuições Pac-Man" />
 </div>
 
 ---
@@ -63,4 +63,4 @@ Aqui estão as principais ferramentas e tecnologias que eu utilizo:
 ## 🌐 Conecte-se Comigo
 
 
-| [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=for-the-badge)]([www.linkedin.com/in/gianpedrobc]) |
+ [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=for-the-badge)]([www.linkedin.com/in/gianpedrobc]) 
