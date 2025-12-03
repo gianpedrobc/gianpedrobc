@@ -52,9 +52,7 @@ Aqui estão as principais ferramentas e tecnologias que eu utilizo:
 
 ---
 
-## 🎮 Pac-Man Contribution Graph 
-
-### Troféus
+## 👾 Gráfico de Contribuição do Pac-Man
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/gianpedrobc/gianpedrobc/output/pacman-contribution-graph.svg" alt="Gráfico de Contribuições Pac-Man" />
