@@ -22,7 +22,7 @@ jobs:
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
-          generate_dark_mode: false
+          generate_dark_mode: true
 
       - name: Deploy to output branch
         uses: peaceiris/actions-gh-pages@v3
