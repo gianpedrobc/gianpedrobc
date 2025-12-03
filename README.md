@@ -46,7 +46,7 @@ Aqui estão as principais ferramentas e tecnologias que eu utilizo:
 ### Troféus
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=[gianpedro]&theme=radical&no-frame=true&row=1&column=6" alt="Troféus do GitHub" />
+  <img src="https://github-profile-trophy.vercel.app/?username=gianpedrobc&theme=radical&no-frame=true&row=1&column=6" alt="Troféus do GitHub" />
 </div>
 
 
