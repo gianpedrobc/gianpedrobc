@@ -49,7 +49,7 @@ Aqui estão as principais ferramentas e tecnologias que eu utilizo:
 
 ## 🏆 Conquistas e Estatísticas do GitHub
 
-### Troféus
+### Troféus 🏅
 
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=gianpedrobc&theme=radical&no-frame=true&row=1&column=6" alt="Troféus do GitHub" />
